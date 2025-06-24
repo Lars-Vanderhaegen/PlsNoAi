@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "PlsNoAi",
+    "version": "1.0",
+    "description": "A Chrome extension to automatically add -ai to Google searches.",
+    "author": "Lakke",
+    "content_scripts": [
+        {
+            "matches": ["https://www.google.com/*"],
+            "js": ["content.js"]
+        }
+    ]
+}
